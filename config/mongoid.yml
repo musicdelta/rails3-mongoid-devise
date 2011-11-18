@@ -15,6 +15,11 @@ test:
   database: rails3_mongoid_devise_test
 
 # set these environment variables on your prod server
+
+staging:
+  host: 10.10.0.1
+  port: 27017    
+
 production:
   host: 10.10.0.1
   port: 27017
